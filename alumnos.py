@@ -9,4 +9,10 @@ class alumnos:
         return self.nota
     def registrarNota(self,notaAlumno):
         self.nota = notaAlumno
+    def leerNombre(self):
+        return self.nombre
+    def leerApellido(self):
+        return self.apellidos
+    def leerNacionalidad(self):
+        return self.nacionalidad
     
