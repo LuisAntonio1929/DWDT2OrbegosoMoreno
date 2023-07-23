@@ -13,10 +13,10 @@ if __name__ == '__main__':
             while True:
                 edad=input("Ingrese la edad del alumno: ")
                 try:
-                    edad=float(edad)
+                    edad=int(edad)
                     break
                 except:
-                    print("La edad debe de ser un número.")
+                    print("La edad debe de ser un número entero.")
             nacionalidad=input("Ingrese la nacionalidad del alumno: ")
             listaAlumnos.append(alumnos(nombres,apellidos,edad,nacionalidad))
         elif comando=="C":
